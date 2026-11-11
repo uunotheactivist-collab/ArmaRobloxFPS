@@ -1,0 +1,46 @@
+{
+ "fbx": "Roblox\\Assets\\AK\\AK_Viewmodel_Reloads.fbx",
+ "importer": "default settings",
+ "clips": {
+  "TacticalRegular": {
+   "frame_offset_found": 1,
+   "max_pos_error_mm": 0.0006,
+   "max_rot_error_deg": 0.0396,
+   "frames": 74,
+   "action_range_after_import": [
+    1.0,
+    74.0
+   ]
+  },
+  "TacticalStressed": {
+   "frame_offset_found": 1,
+   "max_pos_error_mm": 0.0007,
+   "max_rot_error_deg": 0.056,
+   "frames": 51,
+   "action_range_after_import": [
+    1.0,
+    51.0
+   ]
+  },
+  "EmptyRegular": {
+   "frame_offset_found": 1,
+   "max_pos_error_mm": 0.0004,
+   "max_rot_error_deg": 0.0396,
+   "frames": 95,
+   "action_range_after_import": [
+    1.0,
+    95.0
+   ]
+  },
+  "EmptyStressed": {
+   "frame_offset_found": 1,
+   "max_pos_error_mm": 0.0005,
+   "max_rot_error_deg": 0.0485,
+   "frames": 84,
+   "action_range_after_import": [
+    1.0,
+    84.0
+   ]
+  }
+ }
+}

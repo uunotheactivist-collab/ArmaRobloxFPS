@@ -1,0 +1,21 @@
+﻿00:02.609  blend            | Read blend: "C:\Users\cat\Documents\RobloxMilitaryFPS\Blender\Animations\AK\AK_Reloads.blend"
+
+FBX export starting... 'C:\\Users\\cat\\Documents\\RobloxMilitaryFPS\\Roblox\\Assets\\AK\\AK_Viewmodel_Reloads.fbx'
+(bpy.data.armatures['AK_Viewmodel'], 'POSE')
+(bpy.data.armatures['AK_Viewmodel'], 'POSE')
+(bpy.data.armatures['AK_Viewmodel'], 'POSE')
+(bpy.data.armatures['AK_Viewmodel'], 'POSE')
+(bpy.data.armatures['AK_Viewmodel'], 'POSE')
+(bpy.data.armatures['AK_Viewmodel'], 'POSE')
+export finished in 0.1454 sec.
+FBX C:\Users\cat\Documents\RobloxMilitaryFPS\Roblox\Assets\AK\AK_Viewmodel_Reloads.fbx 470652
+FBX version: 7400
+TacticalRegular {'frame_offset_found': 1, 'max_pos_error_mm': 0.0006, 'max_rot_error_deg': 0.0396, 'frames': 74, 'action_range_after_import': [1.0, 74.0]}
+TacticalStressed {'frame_offset_found': 1, 'max_pos_error_mm': 0.0007, 'max_rot_error_deg': 0.056, 'frames': 51, 'action_range_after_import': [1.0, 51.0]}
+EmptyRegular {'frame_offset_found': 1, 'max_pos_error_mm': 0.0004, 'max_rot_error_deg': 0.0396, 'frames': 95, 'action_range_after_import': [1.0, 95.0]}
+EmptyStressed {'frame_offset_found': 1, 'max_pos_error_mm': 0.0005, 'max_rot_error_deg': 0.0485, 'frames': 84, 'action_range_after_import': [1.0, 84.0]}
+KEYS {"TacticalRegular": {"Weapon": 47, "LeftArm": 36, "Magazine": 39, "ChargingHandle": 2, "Camera": 6}, "TacticalStressed": {"Weapon": 31, "LeftArm": 25, "Magazine": 28, "ChargingHandle": 2, "Camera": 2}, "EmptyRegular": {"Weapon": 47, "LeftArm": 43, "Magazine": 33, "ChargingHandle": 9, "Camera": 14}, "EmptyStressed": {"Weapon": 52, "LeftArm": 43, "Magazine": 33, "ChargingHandle": 9, "Camera": 2}}
+WROTE C:\Users\cat\Documents\RobloxMilitaryFPS\Roblox\Assets\AK\AKReloadAnimations.luau 27168
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+
+Blender quit

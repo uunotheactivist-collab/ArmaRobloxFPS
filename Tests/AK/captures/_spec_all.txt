@@ -1,0 +1,13 @@
+# footage frame | Roblox capture | label   (camera pitch matched to each footage frame from its horizon)
+10|C:\Users\cat\Documents\RobloxMilitaryFPS\Roblox\Tests\AK\captures\final\ak_idle.png|hip idle, Regular (rest pose; darker non-reflective materials)
+145|C:\Users\cat\Documents\RobloxMilitaryFPS\Roblox\Tests\AK\captures\final\ak_raised.png|raised posture (aim held): rifle upright, no zoom
+22|C:\Users\cat\Documents\RobloxMilitaryFPS\Roblox\Tests\AK\captures\final\ak_hipfire_flash.png|hip burst: flash light on floor/arm, brass to the right
+70|C:\Users\cat\Documents\RobloxMilitaryFPS\Roblox\Tests\AK\captures\final\ak_rel_tacR_070.png|Regular tactical, t 0.80 s (arm away, magazine out)
+100|C:\Users\cat\Documents\RobloxMilitaryFPS\Roblox\Tests\AK\captures\final\ak_rel_tacR_100.png|Regular tactical, t 1.80 s (arm back after seating)
+437|C:\Users\cat\Documents\RobloxMilitaryFPS\Roblox\Tests\AK\captures\final\ak_rel_tacS_437.png|Stressed tactical, t 1.07 s: label appears
+300|C:\Users\cat\Documents\RobloxMilitaryFPS\Roblox\Tests\AK\captures\final\ak_rel_empR_300.png|Regular empty, t 1.47 s (new magazine in view)
+338|C:\Users\cat\Documents\RobloxMilitaryFPS\Roblox\Tests\AK\captures\final\ak_rel_empR_338.png|Regular empty, t 2.73 s (charging step)
+680|C:\Users\cat\Documents\RobloxMilitaryFPS\Roblox\Tests\AK\captures\final\ak_rel_empS_680.png|Stressed empty, t 1.30 s (seating)
+700|C:\Users\cat\Documents\RobloxMilitaryFPS\Roblox\Tests\AK\captures\final\ak_rel_empS_700.png|Stressed empty, t 1.97 s (charging pose)
+640|C:\Users\cat\Documents\RobloxMilitaryFPS\Roblox\Tests\AK\captures\final\ak_hud_640.png|label "[TAB] 5.45 MAG", canted idle
+470|C:\Users\cat\Documents\RobloxMilitaryFPS\Roblox\Tests\AK\captures\final\ak_hud_470.png|label; footage in the post-tactical hold, Roblox in the rest pose

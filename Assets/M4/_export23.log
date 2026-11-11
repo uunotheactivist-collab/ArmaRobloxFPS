@@ -1,0 +1,23 @@
+﻿00:02.672  blend            | Read blend: "C:\Users\cat\Documents\RobloxMilitaryFPS\Blender\Animations\M4\M4_Reloads.blend"
+
+FBX export starting... 'C:\\Users\\cat\\Documents\\RobloxMilitaryFPS\\Roblox\\Assets\\M4\\M4_Viewmodel_Reloads.fbx'
+(bpy.data.armatures['M4_Viewmodel'], 'POSE')
+(bpy.data.armatures['M4_Viewmodel'], 'POSE')
+(bpy.data.armatures['M4_Viewmodel'], 'POSE')
+(bpy.data.armatures['M4_Viewmodel'], 'POSE')
+(bpy.data.armatures['M4_Viewmodel'], 'POSE')
+(bpy.data.armatures['M4_Viewmodel'], 'POSE')
+(bpy.data.armatures['M4_Viewmodel'], 'POSE')
+(bpy.data.armatures['M4_Viewmodel'], 'POSE')
+export finished in 0.2222 sec.
+FBX C:\Users\cat\Documents\RobloxMilitaryFPS\Roblox\Assets\M4\M4_Viewmodel_Reloads.fbx 596220
+FBX version: 7400
+TacticalRegular {'frame_offset_found': 1, 'max_pos_error_mm': 0.0003, 'max_rot_error_deg': 0.0626, 'frames': 107, 'action_range_after_import': [1.0, 107.0]}
+TacticalStressed {'frame_offset_found': 1, 'max_pos_error_mm': 0.0002, 'max_rot_error_deg': 0.0626, 'frames': 93, 'action_range_after_import': [1.0, 93.0]}
+EmptyRegular {'frame_offset_found': 1, 'max_pos_error_mm': 0.0003, 'max_rot_error_deg': 0.056, 'frames': 112, 'action_range_after_import': [1.0, 112.0]}
+EmptyStressed {'frame_offset_found': 1, 'max_pos_error_mm': 0.0003, 'max_rot_error_deg': 0.056, 'frames': 109, 'action_range_after_import': [1.0, 109.0]}
+KEYS {"TacticalRegular": {"Weapon": 74, "LeftArm": 73, "Magazine": 46, "ChargingHandle": 2, "Camera": 2}, "TacticalStressed": {"Weapon": 69, "LeftArm": 42, "Magazine": 44, "ChargingHandle": 2, "Camera": 2}, "EmptyRegular": {"Weapon": 79, "LeftArm": 48, "Magazine": 41, "ChargingHandle": 9, "Camera": 22}, "EmptyStressed": {"Weapon": 76, "LeftArm": 74, "Magazine": 42, "ChargingHandle": 8, "Camera": 2}}
+WROTE C:\Users\cat\Documents\RobloxMilitaryFPS\Roblox\Assets\M4\M4ReloadAnimations.luau 40552
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+
+Blender quit

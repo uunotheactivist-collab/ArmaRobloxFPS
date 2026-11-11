@@ -1,0 +1,46 @@
+{
+ "fbx": "Roblox\\Assets\\M4\\M4_Viewmodel_Reloads.fbx",
+ "importer": "default settings",
+ "clips": {
+  "TacticalRegular": {
+   "frame_offset_found": 1,
+   "max_pos_error_mm": 0.0003,
+   "max_rot_error_deg": 0.0626,
+   "frames": 107,
+   "action_range_after_import": [
+    1.0,
+    107.0
+   ]
+  },
+  "TacticalStressed": {
+   "frame_offset_found": 1,
+   "max_pos_error_mm": 0.0002,
+   "max_rot_error_deg": 0.0626,
+   "frames": 93,
+   "action_range_after_import": [
+    1.0,
+    93.0
+   ]
+  },
+  "EmptyRegular": {
+   "frame_offset_found": 1,
+   "max_pos_error_mm": 0.0003,
+   "max_rot_error_deg": 0.056,
+   "frames": 112,
+   "action_range_after_import": [
+    1.0,
+    112.0
+   ]
+  },
+  "EmptyStressed": {
+   "frame_offset_found": 1,
+   "max_pos_error_mm": 0.0003,
+   "max_rot_error_deg": 0.056,
+   "frames": 109,
+   "action_range_after_import": [
+    1.0,
+    109.0
+   ]
+  }
+ }
+}

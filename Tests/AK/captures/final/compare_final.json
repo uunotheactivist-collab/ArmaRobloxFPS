@@ -1,0 +1,389 @@
+{
+ "10": {
+  "rifle_iou": 0.318,
+  "rifle_iou_excl_arms": 0.328,
+  "arm_top_edge_offset_px": 10.0,
+  "arm_top_edge_columns": 117,
+  "rifle_width_px": {
+   "footage": 42.7,
+   "roblox": 35.5
+  },
+  "arm_iou": 0.015,
+  "arm_top_row": {
+   "footage": 288,
+   "roblox": 267
+  },
+  "arm_mean_row": {
+   "footage": 334.3,
+   "roblox": 377.4
+  },
+  "arm_px": {
+   "footage": 936,
+   "roblox": 11521
+  },
+  "dark_ratio": {
+   "footage": [
+    0.019,
+    0.233
+   ],
+   "roblox": [
+    0.394,
+    0.542
+   ]
+  },
+  "rifle_L": {
+   "footage": [
+    0.004,
+    0.049
+   ],
+   "roblox": [
+    0.181,
+    0.249
+   ]
+  }
+ },
+ "145": {
+  "rifle_iou": 0.322,
+  "rifle_iou_excl_arms": 0.325,
+  "arm_top_edge_offset_px": 8.0,
+  "arm_top_edge_columns": 107,
+  "rifle_width_px": {
+   "footage": 36.2,
+   "roblox": 31.2
+  },
+  "arm_iou": 0.018,
+  "arm_top_row": {
+   "footage": 256,
+   "roblox": 295
+  },
+  "arm_mean_row": {
+   "footage": 342.3,
+   "roblox": 384.3
+  },
+  "arm_px": {
+   "footage": 718,
+   "roblox": 8665
+  },
+  "dark_ratio": {
+   "footage": [
+    0.018,
+    0.228
+   ],
+   "roblox": [
+    0.404,
+    0.606
+   ]
+  },
+  "rifle_L": {
+   "footage": [
+    0.004,
+    0.051
+   ],
+   "roblox": [
+    0.187,
+    0.281
+   ]
+  }
+ },
+ "70": {
+  "rifle_iou": 0.472,
+  "rifle_iou_excl_arms": 0.472,
+  "arm_top_edge_offset_px": null,
+  "arm_top_edge_columns": 0,
+  "rifle_width_px": {
+   "footage": 47.8,
+   "roblox": 47.2
+  },
+  "arm_iou": null,
+  "arm_top_row": {
+   "footage": 301,
+   "roblox": null
+  },
+  "arm_mean_row": {
+   "footage": 341.9,
+   "roblox": null
+  },
+  "arm_px": {
+   "footage": 279,
+   "roblox": 0
+  },
+  "dark_ratio": {
+   "footage": [
+    0.001,
+    0.109
+   ],
+   "roblox": [
+    0.357,
+    0.811
+   ]
+  },
+  "rifle_L": {
+   "footage": [
+    0.0,
+    0.025
+   ],
+   "roblox": [
+    0.168,
+    0.383
+   ]
+  }
+ },
+ "100": {
+  "rifle_iou": 0.623,
+  "rifle_iou_excl_arms": 0.628,
+  "arm_top_edge_offset_px": 2.5,
+  "arm_top_edge_columns": 94,
+  "rifle_width_px": {
+   "footage": 107.7,
+   "roblox": 124.7
+  },
+  "arm_iou": 0.33,
+  "arm_top_row": {
+   "footage": 256,
+   "roblox": 328
+  },
+  "arm_mean_row": {
+   "footage": 356.2,
+   "roblox": 390.5
+  },
+  "arm_px": {
+   "footage": 3495,
+   "roblox": 5375
+  },
+  "dark_ratio": {
+   "footage": [
+    0.017,
+    0.13
+   ],
+   "roblox": [
+    0.428,
+    0.584
+   ]
+  },
+  "rifle_L": {
+   "footage": [
+    0.004,
+    0.03
+   ],
+   "roblox": [
+    0.208,
+    0.283
+   ]
+  }
+ },
+ "437": {
+  "rifle_iou": 0.645,
+  "rifle_iou_excl_arms": 0.645,
+  "arm_top_edge_offset_px": null,
+  "arm_top_edge_columns": 0,
+  "rifle_width_px": {
+   "footage": 48.4,
+   "roblox": 66.4
+  },
+  "arm_iou": null,
+  "arm_top_row": {
+   "footage": 269,
+   "roblox": null
+  },
+  "arm_mean_row": {
+   "footage": 334.4,
+   "roblox": null
+  },
+  "arm_px": {
+   "footage": 151,
+   "roblox": 0
+  },
+  "dark_ratio": {
+   "footage": [
+    0.019,
+    0.113
+   ],
+   "roblox": [
+    0.407,
+    0.601
+   ]
+  },
+  "rifle_L": {
+   "footage": [
+    0.004,
+    0.024
+   ],
+   "roblox": [
+    0.197,
+    0.291
+   ]
+  }
+ },
+ "300": {
+  "rifle_iou": 0.632,
+  "rifle_iou_excl_arms": 0.632,
+  "arm_top_edge_offset_px": null,
+  "arm_top_edge_columns": 0,
+  "rifle_width_px": {
+   "footage": 48.6,
+   "roblox": 63.0
+  },
+  "arm_iou": null,
+  "arm_top_row": {
+   "footage": 281,
+   "roblox": null
+  },
+  "arm_mean_row": {
+   "footage": 336.8,
+   "roblox": null
+  },
+  "arm_px": {
+   "footage": 134,
+   "roblox": 0
+  },
+  "dark_ratio": {
+   "footage": [
+    0.017,
+    0.121
+   ],
+   "roblox": [
+    0.365,
+    0.559
+   ]
+  },
+  "rifle_L": {
+   "footage": [
+    0.004,
+    0.027
+   ],
+   "roblox": [
+    0.187,
+    0.287
+   ]
+  }
+ },
+ "338": {
+  "rifle_iou": 0.618,
+  "rifle_iou_excl_arms": 0.629,
+  "arm_top_edge_offset_px": -8.0,
+  "arm_top_edge_columns": 86,
+  "rifle_width_px": {
+   "footage": 152.1,
+   "roblox": 185.9
+  },
+  "arm_iou": 0.22,
+  "arm_top_row": {
+   "footage": 270,
+   "roblox": 308
+  },
+  "arm_mean_row": {
+   "footage": 340.7,
+   "roblox": 377.6
+  },
+  "arm_px": {
+   "footage": 2299,
+   "roblox": 3877
+  },
+  "dark_ratio": {
+   "footage": [
+    0.083,
+    0.293
+   ],
+   "roblox": [
+    0.344,
+    0.536
+   ]
+  },
+  "rifle_L": {
+   "footage": [
+    0.018,
+    0.063
+   ],
+   "roblox": [
+    0.175,
+    0.272
+   ]
+  }
+ },
+ "680": {
+  "rifle_iou": 0.571,
+  "rifle_iou_excl_arms": 0.571,
+  "arm_top_edge_offset_px": null,
+  "arm_top_edge_columns": 0,
+  "rifle_width_px": {
+   "footage": 51.7,
+   "roblox": 73.5
+  },
+  "arm_iou": null,
+  "arm_top_row": {
+   "footage": 254,
+   "roblox": null
+  },
+  "arm_mean_row": {
+   "footage": 335.9,
+   "roblox": null
+  },
+  "arm_px": {
+   "footage": 304,
+   "roblox": 0
+  },
+  "dark_ratio": {
+   "footage": [
+    0.017,
+    0.116
+   ],
+   "roblox": [
+    0.427,
+    0.604
+   ]
+  },
+  "rifle_L": {
+   "footage": [
+    0.004,
+    0.026
+   ],
+   "roblox": [
+    0.202,
+    0.285
+   ]
+  }
+ },
+ "700": {
+  "rifle_iou": 0.57,
+  "rifle_iou_excl_arms": 0.59,
+  "arm_top_edge_offset_px": 0.5,
+  "arm_top_edge_columns": 112,
+  "rifle_width_px": {
+   "footage": 128.9,
+   "roblox": 139.5
+  },
+  "arm_iou": 0.315,
+  "arm_top_row": {
+   "footage": 300,
+   "roblox": 305
+  },
+  "arm_mean_row": {
+   "footage": 348.3,
+   "roblox": 383.9
+  },
+  "arm_px": {
+   "footage": 3824,
+   "roblox": 6570
+  },
+  "dark_ratio": {
+   "footage": [
+    0.036,
+    0.185
+   ],
+   "roblox": [
+    0.466,
+    0.651
+   ]
+  },
+  "rifle_L": {
+   "footage": [
+    0.008,
+    0.041
+   ],
+   "roblox": [
+    0.216,
+    0.302
+   ]
+  }
+ }
+}

@@ -1,0 +1,142 @@
+{
+ "fbx": "Roblox/Assets/MP7/MP7_Viewmodel_HD.fbx",
+ "bytes": 179724,
+ "sha256": "891BA7D58D60CAB25CD12BBA9D2BA11178642D7254175084CBCDF663559427FB",
+ "objects": {
+  "ChargingHandle_Metal": {
+   "tris": [
+    120,
+    120
+   ],
+   "verts": [
+    64,
+    64
+   ],
+   "bbox_err_m": 2.9802322387695312e-08,
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "parent": "MP7_Viewmodel"
+  },
+  "Magazine_Polymer": {
+   "tris": [
+    88,
+    88
+   ],
+   "verts": [
+    48,
+    48
+   ],
+   "bbox_err_m": 5.960464477539063e-08,
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "parent": "MP7_Viewmodel"
+  },
+  "Weapon_Metal": {
+   "tris": [
+    4020,
+    4020
+   ],
+   "verts": [
+    2130,
+    2130
+   ],
+   "bbox_err_m": 1.7136335372924805e-07,
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "parent": "MP7_Viewmodel"
+  },
+  "Weapon_Polymer": {
+   "tris": [
+    1012,
+    1012
+   ],
+   "verts": [
+    548,
+    548
+   ],
+   "bbox_err_m": 1.564621925354004e-07,
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "parent": "MP7_Viewmodel"
+  },
+  "LeftArm": {
+   "tris": [
+    12,
+    12
+   ],
+   "verts": [
+    8,
+    8
+   ],
+   "bbox_err_m": 2.384185791015625e-07,
+   "scale": [
+    1.0,
+    1.0,
+    1.0
+   ],
+   "parent": "MP7_Viewmodel"
+  }
+ },
+ "bones": {
+  "Root": {
+   "parent": null,
+   "err": 1.6292067073209182e-07
+  },
+  "Weapon": {
+   "parent": "Root",
+   "err": 1.1175870895385742e-07
+  },
+  "Magazine": {
+   "parent": "Weapon",
+   "err": 1.9371509552001953e-07
+  },
+  "ChargingHandle": {
+   "parent": "Weapon",
+   "err": 3.0547380447387695e-07
+  },
+  "LeftArm": {
+   "parent": "Root",
+   "err": 2.086162567138672e-07
+  }
+ },
+ "worst_bbox_err_m": 2.384185791015625e-07,
+ "rig_scale": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "encoded": {
+  "ChargingHandle_Metal": {
+   "tris": 120,
+   "verts": 160,
+   "base64_chars": 2892
+  },
+  "Magazine_Polymer": {
+   "tris": 88,
+   "verts": 136,
+   "base64_chars": 2348
+  },
+  "Weapon_Metal": {
+   "tris": 4020,
+   "verts": 5202,
+   "base64_chars": 94596
+  },
+  "Weapon_Polymer": {
+   "tris": 1012,
+   "verts": 1488,
+   "base64_chars": 25964
+  }
+ }
+}

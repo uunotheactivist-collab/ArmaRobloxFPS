@@ -1,0 +1,413 @@
+{
+ "Units": "studs (1 stud = 0.28 m); CFrame components x,y,z,R00..R22; Root = camera CFrame",
+ "Joints": {
+  "Weapon": {
+   "Parent": "Root",
+   "C0": [
+    0.065393,
+    -0.197429,
+    -0.800179,
+    0.999519,
+    0.030331,
+    0.006472,
+    -0.030327,
+    0.99954,
+    -0.000638,
+    -0.006488,
+    0.000442,
+    0.999979
+   ]
+  },
+  "LeftArm": {
+   "Parent": "Root",
+   "C0": [
+    -0.541112,
+    -2.826864,
+    0.404107,
+    0.850168,
+    -0.470958,
+    -0.235399,
+    0.0,
+    0.447093,
+    -0.894488,
+    0.526511,
+    0.760465,
+    0.380104
+   ]
+  },
+  "Magazine": {
+   "Parent": "Weapon",
+   "C0": [
+    0.0,
+    0.0,
+    0.142857,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "ChargingHandle": {
+   "Parent": "Weapon",
+   "C0": [
+    0.0,
+    0.057143,
+    0.221429,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "RightArm": {
+   "Parent": "Weapon",
+   "C0": [
+    1.074034,
+    -2.481568,
+    0.496486,
+    0.273656,
+    0.867506,
+    0.415386,
+    0.007689,
+    0.429885,
+    -0.902851,
+    -0.961797,
+    0.250265,
+    0.110971
+   ]
+  }
+ },
+ "Points": {
+  "Muzzle": [
+   0.0,
+   0.035714,
+   -0.407143
+  ],
+  "Ejection": [
+   0.035714,
+   0.061429,
+   -0.042857
+  ],
+  "SightGlass": [
+   0.0,
+   0.101786,
+   0.114286
+  ],
+  "SightRear": [
+   0.0,
+   0.083929,
+   0.221429
+  ],
+  "RearDotL": [
+   -0.015357,
+   0.083929,
+   0.225714
+  ],
+  "RearDotR": [
+   0.015357,
+   0.083929,
+   0.225714
+  ],
+  "FrontPostTip": [
+   0.0,
+   0.088214,
+   -0.371429
+  ],
+  "HandGrip": [
+   -0.078571,
+   -0.160714,
+   0.185714
+  ],
+  "RightHand": [
+   0.071429,
+   -0.160714,
+   0.2
+  ],
+  "MagazineBottom": [
+   0.0,
+   -0.357143,
+   0.214286
+  ]
+ },
+ "Materials": {
+  "Slide": {
+   "Color": [
+    24,
+    24,
+    26
+   ],
+   "Material": "SmoothPlastic",
+   "Transparency": 0.0
+  },
+  "Tan": {
+   "Color": [
+    150,
+    126,
+    92
+   ],
+   "Material": "SmoothPlastic",
+   "Transparency": 0.0
+  },
+  "Optic": {
+   "Color": [
+    20,
+    20,
+    22
+   ],
+   "Material": "SmoothPlastic",
+   "Transparency": 0.0
+  },
+  "Glass": {
+   "Color": [
+    150,
+    185,
+    175
+   ],
+   "Material": "Glass",
+   "Transparency": 0.72
+  },
+  "Reticle": {
+   "Color": [
+    255,
+    45,
+    35
+   ],
+   "Material": "Neon",
+   "Transparency": 0.0
+  },
+  "Night": {
+   "Color": [
+    60,
+    255,
+    80
+   ],
+   "Material": "Neon",
+   "Transparency": 0.0
+  },
+  "Lens": {
+   "Color": [
+    225,
+    225,
+    215
+   ],
+   "Material": "SmoothPlastic",
+   "Transparency": 0.0
+  },
+  "Arm": {
+   "Color": [
+    210,
+    210,
+    212
+   ],
+   "Material": "SmoothPlastic",
+   "Transparency": 0.0
+  }
+ },
+ "Poses": {
+  "ADS": {
+   "Weapon": [
+    -0.061826,
+    0.094794,
+    -0.083945,
+    0.998903,
+    -0.046421,
+    -0.00617,
+    0.046358,
+    0.998875,
+    -0.010025,
+    0.006629,
+    0.009728,
+    0.999931
+   ],
+   "LeftArm": [
+    -0.003397,
+    5.3e-05,
+    -0.108152,
+    0.997536,
+    0.062735,
+    0.031396,
+    -0.062751,
+    0.998029,
+    -0.000488,
+    -0.031365,
+    -0.001484,
+    0.999507
+   ]
+  }
+ },
+ "ADSIn": [
+  {
+   "T": 0.0,
+   "Weapon": [
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  {
+   "T": 0.15,
+   "Weapon": [
+    -0.061826,
+    0.094794,
+    -0.083945,
+    0.998903,
+    -0.046421,
+    -0.00617,
+    0.046358,
+    0.998875,
+    -0.010025,
+    0.006629,
+    0.009728,
+    0.999931
+   ]
+  }
+ ],
+ "Camera": {
+  "HipFieldOfView": 70
+ },
+ "PartOrigins": {
+  "Weapon": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "Magazine": [
+   0.0,
+   -0.04,
+   0.0
+  ],
+  "ChargingHandle": [
+   0.0,
+   -0.062,
+   0.016
+  ]
+ },
+ "RecipeSpace": "weapon space metres (+X right, +Y muzzle, +Z up); builder converts with p_r = (x, z, -y) / 0.28 after subtracting PartOrigins[Bone]",
+ "Source": "Blender/Weapons/Glock + ReferenceAnalysis/Glock/ProductionPoses/glock_poses.json",
+ "AimState": "ADS (red-dot aim): the footage raises the pistol to the centre with a 1.16x zoom (frames 147-151 / 175-179); rear dots fitted to frames 152-162, bore aligned with the view (38_glock_ads_align.py)",
+ "Parts": [
+  {
+   "Name": "ChargingHandle_Glass",
+   "Bone": "ChargingHandle",
+   "Material": "Glass",
+   "Triangles": 12
+  },
+  {
+   "Name": "ChargingHandle_Lens",
+   "Bone": "ChargingHandle",
+   "Material": "Lens",
+   "Triangles": 12
+  },
+  {
+   "Name": "ChargingHandle_Night",
+   "Bone": "ChargingHandle",
+   "Material": "Night",
+   "Triangles": 24
+  },
+  {
+   "Name": "ChargingHandle_Optic",
+   "Bone": "ChargingHandle",
+   "Material": "Optic",
+   "Triangles": 56
+  },
+  {
+   "Name": "ChargingHandle_Slide",
+   "Bone": "ChargingHandle",
+   "Material": "Slide",
+   "Triangles": 56
+  },
+  {
+   "Name": "ChargingHandle_Tan",
+   "Bone": "ChargingHandle",
+   "Material": "Tan",
+   "Triangles": 184
+  },
+  {
+   "Name": "Magazine_Tan",
+   "Bone": "Magazine",
+   "Material": "Tan",
+   "Triangles": 24
+  },
+  {
+   "Name": "Weapon_Lens",
+   "Bone": "Weapon",
+   "Material": "Lens",
+   "Triangles": 12
+  },
+  {
+   "Name": "Weapon_Optic",
+   "Bone": "Weapon",
+   "Material": "Optic",
+   "Triangles": 12
+  },
+  {
+   "Name": "Weapon_Reticle",
+   "Bone": "Weapon",
+   "Material": "Reticle",
+   "Triangles": 12
+  },
+  {
+   "Name": "Weapon_Slide",
+   "Bone": "Weapon",
+   "Material": "Slide",
+   "Triangles": 12
+  },
+  {
+   "Name": "Weapon_Tan",
+   "Bone": "Weapon",
+   "Material": "Tan",
+   "Triangles": 152
+  },
+  {
+   "Name": "LeftArm",
+   "Bone": "LeftArm",
+   "Material": "Arm",
+   "Kind": "Block",
+   "Size": [
+    0.39285714285714285,
+    0.39285714285714285,
+    2.6785714285714284
+   ],
+   "Offset": [
+    0.0,
+    0.0,
+    -1.339286
+   ]
+  },
+  {
+   "Name": "RightArm",
+   "Bone": "RightArm",
+   "Material": "Arm",
+   "Kind": "Block",
+   "Size": [
+    0.39285714285714285,
+    0.39285714285714285,
+    2.6785714285714284
+   ],
+   "Offset": [
+    0.0,
+    0.0,
+    -1.339286
+   ]
+  }
+ ]
+}

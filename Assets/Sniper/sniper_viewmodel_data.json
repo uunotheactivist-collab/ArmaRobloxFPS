@@ -1,0 +1,356 @@
+{
+ "Units": "studs (1 stud = 0.28 m); CFrame components x,y,z,R00..R22; Root = camera CFrame",
+ "Joints": {
+  "Weapon": {
+   "Parent": "Root",
+   "C0": [
+    0.095036,
+    -0.575893,
+    -1.062393,
+    0.998315,
+    -0.057156,
+    0.010017,
+    0.057507,
+    0.997575,
+    -0.039209,
+    -0.007752,
+    0.039719,
+    0.999181
+   ]
+  },
+  "LeftArm": {
+   "Parent": "Root",
+   "C0": [
+    -1.221358,
+    -1.788108,
+    -0.294689,
+    0.900659,
+    -0.153562,
+    -0.406488,
+    0.0,
+    0.935472,
+    -0.353402,
+    0.434527,
+    0.318294,
+    0.842541
+   ]
+  },
+  "Magazine": {
+   "Parent": "Weapon",
+   "C0": [
+    0.0,
+    -0.142857,
+    -0.375,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "ChargingHandle": {
+   "Parent": "Weapon",
+   "C0": [
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  "RightArm": {
+   "Parent": "Weapon",
+   "C0": [
+    0.969254,
+    -1.470591,
+    2.419603,
+    0.911293,
+    0.231495,
+    0.340521,
+    -0.068492,
+    0.900694,
+    -0.429021,
+    -0.406022,
+    0.367641,
+    0.836652
+   ]
+  }
+ },
+ "Points": {
+  "Muzzle": [
+   0.0,
+   0.0,
+   -3.096429
+  ],
+  "Ejection": [
+   0.060714,
+   0.021429,
+   -0.160714
+  ],
+  "SightGlass": [
+   0.0,
+   0.196429,
+   0.267857
+  ],
+  "SightRear": [
+   0.0,
+   0.196429,
+   0.267857
+  ],
+  "Pivot": [
+   0.0,
+   -0.142857,
+   0.107143
+  ],
+  "HandGrip": [
+   -0.121429,
+   -0.242857,
+   -1.392857
+  ],
+  "RightHand": [
+   0.057143,
+   -0.321429,
+   0.178571
+  ],
+  "BoltKnob": [
+   0.185714,
+   -0.071429,
+   -0.028571
+  ],
+  "MagazineBottom": [
+   0.0,
+   -0.346429,
+   -0.375
+  ],
+  "PanelAnchor": [
+   -0.142857,
+   -0.214286,
+   -0.375
+  ]
+ },
+ "Materials": {
+  "Body": {
+   "Color": [
+    19,
+    19,
+    21
+   ],
+   "Material": "SmoothPlastic",
+   "Transparency": 0.0
+  },
+  "Metal": {
+   "Color": [
+    26,
+    26,
+    28
+   ],
+   "Material": "Metal",
+   "Transparency": 0.0
+  },
+  "Knob": {
+   "Color": [
+    60,
+    60,
+    64
+   ],
+   "Material": "Metal",
+   "Transparency": 0.0
+  },
+  "Glass": {
+   "Color": [
+    40,
+    52,
+    52
+   ],
+   "Material": "Glass",
+   "Transparency": 0.35
+  },
+  "Arm": {
+   "Color": [
+    210,
+    210,
+    212
+   ],
+   "Material": "SmoothPlastic",
+   "Transparency": 0.0
+  }
+ },
+ "Poses": {
+  "ADS": {
+   "Weapon": [
+    -0.076224,
+    0.400218,
+    0.392763,
+    0.998315,
+    0.057507,
+    -0.007752,
+    -0.057156,
+    0.997575,
+    0.039719,
+    0.010017,
+    -0.039209,
+    0.999181
+   ],
+   "LeftArm": [
+    0.0,
+    0.0,
+    -0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  }
+ },
+ "ADSIn": [
+  {
+   "T": 0.0,
+   "Weapon": [
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0
+   ]
+  },
+  {
+   "T": 0.2,
+   "Weapon": [
+    -0.076224,
+    0.400218,
+    0.392763,
+    0.998315,
+    0.057507,
+    -0.007752,
+    -0.057156,
+    0.997575,
+    0.039719,
+    0.010017,
+    -0.039209,
+    0.999181
+   ]
+  }
+ ],
+ "Camera": {
+  "HipFieldOfView": 70
+ },
+ "PartOrigins": {
+  "Weapon": [
+   0.0,
+   0.0,
+   0.0
+  ],
+  "Magazine": [
+   0.0,
+   0.105,
+   -0.04
+  ],
+  "ChargingHandle": [
+   0.0,
+   0.0,
+   0.0
+  ]
+ },
+ "RecipeSpace": "weapon space metres (+X right, +Y muzzle, +Z up); builder converts with p_r = (x, z, -y) / 0.28 after subtracting PartOrigins[Bone]",
+ "Source": "Blender/Weapons/Sniper + ReferenceAnalysis/Sniper/ProductionPoses/sniper_poses.json",
+ "AimState": "Scoped (picture-in-picture scope): Client.Optics.OpticAim places the eyepiece on the view axis at the eye relief measured from the 200-px ring; this pose is the same placement (sniper_poses.json ads)",
+ "Parts": [
+  {
+   "Name": "ChargingHandle_Metal",
+   "Bone": "ChargingHandle",
+   "Material": "Metal",
+   "Triangles": 188
+  },
+  {
+   "Name": "Magazine_Body",
+   "Bone": "Magazine",
+   "Material": "Body",
+   "Triangles": 12
+  },
+  {
+   "Name": "Magazine_Metal",
+   "Bone": "Magazine",
+   "Material": "Metal",
+   "Triangles": 12
+  },
+  {
+   "Name": "Weapon_Body",
+   "Bone": "Weapon",
+   "Material": "Body",
+   "Triangles": 558
+  },
+  {
+   "Name": "Weapon_Glass",
+   "Bone": "Weapon",
+   "Material": "Glass",
+   "Triangles": 76
+  },
+  {
+   "Name": "Weapon_Knob",
+   "Bone": "Weapon",
+   "Material": "Knob",
+   "Triangles": 236
+  },
+  {
+   "Name": "Weapon_Metal",
+   "Bone": "Weapon",
+   "Material": "Metal",
+   "Triangles": 588
+  },
+  {
+   "Name": "LeftArm",
+   "Bone": "LeftArm",
+   "Material": "Arm",
+   "Kind": "Block",
+   "Size": [
+    0.39285714285714285,
+    0.39285714285714285,
+    2.6785714285714284
+   ],
+   "Offset": [
+    0.0,
+    0.0,
+    -1.339286
+   ]
+  },
+  {
+   "Name": "RightArm",
+   "Bone": "RightArm",
+   "Material": "Arm",
+   "Kind": "Block",
+   "Size": [
+    0.39285714285714285,
+    0.39285714285714285,
+    2.6785714285714284
+   ],
+   "Offset": [
+    0.0,
+    0.0,
+    -1.339286
+   ]
+  }
+ ]
+}

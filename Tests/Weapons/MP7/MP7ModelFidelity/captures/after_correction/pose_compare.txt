@@ -1,0 +1,18 @@
+MP7 model fidelity CORRECTION - Studio capture of the corrected model (2026-11-09)
+
+Capture: MP7ModelFidelityTest.Run.capture, 36 states (REST + 35 reload-clip moments), settleS 0.5, phaseS 0.7, 97.8 s;
+viewport 1452 x 753, FOV 70; poller run_capture.ps1: 108 / 108 PNGs saved in 102 s.
+
+Logged rig frames vs captures/before/poses.json (the BEFORE capture, stored rounded to 1e-5):
+  weapon, magazine, chargingHandle, leftArm camera-relative CFrames, 36 states x 4 bones x 12 numbers = 1728 values
+  max |difference| = 7.0e-6 (REST.weapon[2]) -> identical within the stored precision: the rig (joints, poses, reload
+  clips, arm) is unchanged by the correction. (Digest at 3 decimals: weapon 36/36, charging handle 36/36 equal; the
+  magazine 35/36 and arm 34/36 digests differ only where a value sits on a rounding boundary of the 1e-5 file.)
+  pose_digest_studio.txt = the per-state 4-decimal digest of this run (weapon, magazine, charging handle, arm).
+
+Viewmodel parts (Run.parts(), Studio):
+  ChargingHandle_Metal MeshPart 0.1744 x 0.0522 x 0.1076  SmoothPlastic (18,18,20) CastShadow false
+  Magazine_Polymer     MeshPart 0.1391 x 0.7914 x 0.3845  SmoothPlastic (15,15,16) CastShadow false  (was 0.138 x 0.783 x 0.322)
+  Weapon_Metal         MeshPart 0.2274 x 0.4682 x 1.6021  SmoothPlastic (18,18,20) CastShadow false
+  Weapon_Polymer       MeshPart 0.2238 x 0.8108 x 1.4326  SmoothPlastic (15,15,16) CastShadow false
+  LeftArm              Part     0.3929 x 0.3929 x 2.6786  SmoothPlastic (210,210,212) CastShadow false

@@ -1,0 +1,98 @@
+{
+ "original": {
+  "fps": 30,
+  "frame_range": [
+   1.0,
+   107.0
+  ],
+  "material_base_colors": {
+   "Arm_White": [
+    0.95,
+    0.95,
+    0.95
+   ],
+   "Magazine_Tan": [
+    0.62,
+    0.45,
+    0.24
+   ],
+   "Weapon_Black": [
+    0.012,
+    0.012,
+    0.014
+   ]
+  }
+ },
+ "imported": {
+  "objects": [
+   "LeftArm",
+   "M4_Placeholder",
+   "Magazine",
+   "ViewmodelRig"
+  ],
+  "bones": [
+   "Root",
+   "Weapon",
+   "Magazine",
+   "LeftArm"
+  ],
+  "vertex_groups": {
+   "Magazine": [
+    "Magazine"
+   ],
+   "LeftArm": [
+    "LeftArm"
+   ],
+   "M4_Placeholder": [
+    "Weapon"
+   ]
+  },
+  "armature_modifiers": {
+   "Magazine": [
+    "ViewmodelRig"
+   ],
+   "LeftArm": [
+    "ViewmodelRig"
+   ],
+   "M4_Placeholder": [
+    "ViewmodelRig"
+   ]
+  },
+  "action": "ViewmodelRig|Scene",
+  "action_frame_range": [
+   2.0,
+   108.0
+  ],
+  "scene_fps": 30,
+  "material_base_colors": {
+   "Arm_White": [
+    0.95,
+    0.95,
+    0.95
+   ],
+   "Magazine_Tan": [
+    0.62,
+    0.45,
+    0.24
+   ],
+   "Weapon_Black": [
+    0.012,
+    0.012,
+    0.014
+   ]
+  }
+ },
+ "importer_frame_offset": 1,
+ "max_vertex_error_m": 0.0,
+ "mean_vertex_error_m": 0.0,
+ "max_bone_position_error_m": 0.0,
+ "max_bone_rotation_error_deg": 0.0396,
+ "render_silhouette_iou": {
+  "1": 0.9904,
+  "25": 0.9999,
+  "55": 0.9999,
+  "80": 0.9998,
+  "107": 0.9998
+ },
+ "frames_compared": 107
+}

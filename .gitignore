@@ -1,0 +1,5 @@
+﻿.git/
+*.rbxl.lock
+Scripts/Checkpoints/
+.DS_Store
+Thumbs.db

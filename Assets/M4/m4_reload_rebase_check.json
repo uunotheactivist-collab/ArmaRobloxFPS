@@ -1,0 +1,85 @@
+{
+ "C0_old": [
+  [
+   0.8430020758403719,
+   0.5378187214541902,
+   -0.009925874379808745,
+   -0.14987456208728464
+  ],
+  [
+   -0.5376148458273069,
+   0.841784057751598,
+   -0.048681389270798285,
+   -0.49040409072097846
+  ],
+  [
+   -0.017826319724066435,
+   0.04637480963447826,
+   0.9987650371115626,
+   -0.587748288657314
+  ],
+  [
+   0.0,
+   0.0,
+   0.0,
+   1.0
+  ]
+ ],
+ "C0_new": [
+  [
+   0.8429826681305461,
+   0.537847130475433,
+   -0.010034215009064157,
+   -0.13002240413871005
+  ],
+  [
+   -0.5373766071605722,
+   0.8410981396146859,
+   -0.06148415741722696,
+   -0.5176197393100388
+  ],
+  [
+   -0.024629318059937705,
+   0.057222231484423076,
+   0.9980576200379643,
+   -0.6285972113549353
+  ],
+  [
+   0.0,
+   0.0,
+   0.0,
+   1.0
+  ]
+ ],
+ "blend_frames": 6,
+ "clips": {
+  "TacticalRegular": {
+   "keys_before": 74,
+   "keys_after": 77,
+   "interior_camera_space_error_studs": 0.0,
+   "edge_max_offset_from_accepted_studs": 0.0529,
+   "starts_and_ends_at_rest": true
+  },
+  "TacticalStressed": {
+   "keys_before": 69,
+   "keys_after": 70,
+   "interior_camera_space_error_studs": 0.0,
+   "edge_max_offset_from_accepted_studs": 0.0529,
+   "starts_and_ends_at_rest": true
+  },
+  "EmptyRegular": {
+   "keys_before": 79,
+   "keys_after": 80,
+   "interior_camera_space_error_studs": 0.0,
+   "edge_max_offset_from_accepted_studs": 0.0529,
+   "starts_and_ends_at_rest": true
+  },
+  "EmptyStressed": {
+   "keys_before": 76,
+   "keys_after": 77,
+   "interior_camera_space_error_studs": 0.0,
+   "edge_max_offset_from_accepted_studs": 0.0529,
+   "starts_and_ends_at_rest": true
+  }
+ }
+}

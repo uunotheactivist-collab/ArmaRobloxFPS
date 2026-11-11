@@ -1,0 +1,277 @@
+{
+ "fbx": "Roblox/Assets/M4/M4_Viewmodel_HD.fbx",
+ "bytes": 346956,
+ "sha256": "7D67B41070581EB81418077A60EA611D757F577512490720D0267C3944795C3B",
+ "objects": {
+  "ChargingHandle_Metal": {
+   "tris": [
+    284,
+    284
+   ],
+   "verts": [
+    148,
+    148
+   ],
+   "bbox_err_m": 7.450580596923828e-08,
+   "scale": [
+    0.9999999403953552,
+    0.9999998807907104,
+    0.9999999403953552
+   ],
+   "parent": "M4_Viewmodel",
+   "materials": [
+    "M4HD_Metal"
+   ]
+  },
+  "Magazine_Metal": {
+   "tris": [
+    156,
+    156
+   ],
+   "verts": [
+    80,
+    80
+   ],
+   "bbox_err_m": 1.1920928955078125e-07,
+   "scale": [
+    0.9999999403953552,
+    0.9999998807907104,
+    0.9999999403953552
+   ],
+   "parent": "M4_Viewmodel",
+   "materials": [
+    "M4HD_Metal"
+   ]
+  },
+  "Magazine_Tan": {
+   "tris": [
+    676,
+    676
+   ],
+   "verts": [
+    352,
+    352
+   ],
+   "bbox_err_m": 1.1920928955078125e-07,
+   "scale": [
+    0.9999999403953552,
+    0.9999998807907104,
+    0.9999999403953552
+   ],
+   "parent": "M4_Viewmodel",
+   "materials": [
+    "M4HD_Tan"
+   ]
+  },
+  "Weapon_Glass": {
+   "tris": [
+    12,
+    12
+   ],
+   "verts": [
+    8,
+    8
+   ],
+   "bbox_err_m": 5.960464477539063e-08,
+   "scale": [
+    0.9999999403953552,
+    0.9999998807907104,
+    0.9999999403953552
+   ],
+   "parent": "M4_Viewmodel",
+   "materials": [
+    "M4HD_Glass"
+   ]
+  },
+  "Weapon_Metal": {
+   "tris": [
+    3656,
+    3656
+   ],
+   "verts": [
+    1904,
+    1904
+   ],
+   "bbox_err_m": 2.384185791015625e-07,
+   "scale": [
+    0.9999999403953552,
+    0.9999998807907104,
+    0.9999999403953552
+   ],
+   "parent": "M4_Viewmodel",
+   "materials": [
+    "M4HD_Metal"
+   ]
+  },
+  "Weapon_Optic": {
+   "tris": [
+    2418,
+    2418
+   ],
+   "verts": [
+    1229,
+    1229
+   ],
+   "bbox_err_m": 5.587935447692871e-08,
+   "scale": [
+    0.9999999403953552,
+    0.9999998807907104,
+    0.9999999403953552
+   ],
+   "parent": "M4_Viewmodel",
+   "materials": [
+    "M4HD_Optic"
+   ]
+  },
+  "Weapon_Polymer": {
+   "tris": [
+    3032,
+    3032
+   ],
+   "verts": [
+    1526,
+    1526
+   ],
+   "bbox_err_m": 1.341104507446289e-07,
+   "scale": [
+    0.9999999403953552,
+    0.9999998807907104,
+    0.9999999403953552
+   ],
+   "parent": "M4_Viewmodel",
+   "materials": [
+    "M4HD_Polymer"
+   ]
+  },
+  "Weapon_Reticle": {
+   "tris": [
+    44,
+    44
+   ],
+   "verts": [
+    24,
+    24
+   ],
+   "bbox_err_m": 5.21540641784668e-08,
+   "scale": [
+    0.9999999403953552,
+    0.9999998807907104,
+    0.9999999403953552
+   ],
+   "parent": "M4_Viewmodel",
+   "materials": [
+    "M4HD_Reticle"
+   ]
+  },
+  "Weapon_Steel": {
+   "tris": [
+    188,
+    188
+   ],
+   "verts": [
+    96,
+    96
+   ],
+   "bbox_err_m": 2.384185791015625e-07,
+   "scale": [
+    0.9999999403953552,
+    0.9999998807907104,
+    0.9999999403953552
+   ],
+   "parent": "M4_Viewmodel",
+   "materials": [
+    "M4HD_Steel"
+   ]
+  },
+  "LeftArm": {
+   "tris": [
+    12,
+    12
+   ],
+   "verts": [
+    8,
+    8
+   ],
+   "bbox_err_m": 1.7881393432617188e-07,
+   "scale": [
+    0.9999998807907104,
+    1.0,
+    0.9999999403953552
+   ],
+   "parent": "M4_Viewmodel",
+   "materials": [
+    "M4HD_Arm"
+   ]
+  }
+ },
+ "bones": {
+  "Root": {
+   "parent": null,
+   "err": 1.6292067073209182e-07
+  },
+  "Weapon": {
+   "parent": "Root",
+   "err": 1.4528632164001465e-07
+  },
+  "Magazine": {
+   "parent": "Weapon",
+   "err": 1.564621925354004e-07
+  },
+  "ChargingHandle": {
+   "parent": "Weapon",
+   "err": 1.6391277313232422e-07
+  },
+  "LeftArm": {
+   "parent": "Root",
+   "err": 2.337619662284851e-07
+  }
+ },
+ "worst_bbox_err_m": 2.384185791015625e-07,
+ "rig_scale": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "actions": [
+  "M4_Viewmodel|M4_Viewmodel|M4_ADS",
+  "M4_Viewmodel|M4_Viewmodel|M4_Idle"
+ ],
+ "encoded": {
+  "ChargingHandle_Metal": {
+   "tris": 284,
+   "verts": 304
+  },
+  "Magazine_Metal": {
+   "tris": 156,
+   "verts": 128
+  },
+  "Magazine_Tan": {
+   "tris": 676,
+   "verts": 832
+  },
+  "Weapon_Glass": {
+   "tris": 12,
+   "verts": 24
+  },
+  "Weapon_Metal": {
+   "tris": 3656,
+   "verts": 3878
+  },
+  "Weapon_Optic": {
+   "tris": 2418,
+   "verts": 2147
+  },
+  "Weapon_Polymer": {
+   "tris": 3032,
+   "verts": 2784
+  },
+  "Weapon_Reticle": {
+   "tris": 44,
+   "verts": 48
+  },
+  "Weapon_Steel": {
+   "tris": 188,
+   "verts": 144
+  }
+ }
+}
