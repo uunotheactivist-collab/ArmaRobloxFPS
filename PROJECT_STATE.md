@@ -1,6 +1,18 @@
 # PROJECT_STATE.md: current working state
 
-Maintained by PC; Mac proposes changes by handoff. Statuses live in `BASELINES.md`. Snapshot 2026-11-11.
+Maintained by PC; Mac proposes changes by handoff. This file is evidence, not authority: statuses are in
+`BASELINES.md` and authority is in `DECISIONS.md` §2 and §4 (`AGENTS.md` §1). Snapshot 2026-11-11.
+
+## Control layer
+
+| Item | State |
+|---|---|
+| Control documents | on the review branch `pc/2026-11-11-agent-control-layer` (local; not pushed when this snapshot was written). Not on `origin/master` |
+| Authoritative control plane | none yet: `origin/master` (`22cbe21`) contains no control documents (`AGENTS.md` §1.5) |
+| User-authority records on `origin/master` | none |
+| Historical ratification (RAT-1) | not performed (P-019) |
+| Role markers | no `AGENT_ROLE` in the PC user or machine environment (checked 2026-11-11); Mac UNKNOWN (INF-12) |
+| Autonomous operation | not permitted: bootstrap merge, INF-06, INF-11, INF-12 and P-020 outstanding (`AGENTS.md` §22) |
 
 ## Repository and machines
 
@@ -8,18 +20,18 @@ Maintained by PC; Mac proposes changes by handoff. Statuses live in `BASELINES.m
 |---|---|
 | Shared root | `Roblox/` (Git) |
 | Remote | `github.com/uunotheactivist-collab/ArmaRobloxFPS`. Visibility UNKNOWN |
-| `master` | **controlled integration / current-project branch.** One commit, `22cbe21` "Baseline M2 FM4" (the user, 2026-11-11). It holds the current place, so it mixes accepted and unaccepted work. Its content is not a status. Long-term policy: P-003, which does not block anything now |
-| Agent branches | none yet |
-| Tracked size | ≈ 1.3 GB, mostly PNG; Git LFS installed but unused; no `.gitattributes`. Not to be changed during installation (INF-03, INF-04) |
-| Line endings | PC `core.autocrlf=true`. 47 files CRLF + 2 mixed in the working tree. All 157 `Scripts/src` files are LF |
-| Outside Git (PC only) | `Documentation/`, `Fidelity Audit 2026-11-09/` (44 MB), `Fidelity Audit 2026-11-10/` (3.4 GB), `Lighting Correction 2026-11-09/` (961 MB), `ReferenceAnalysis/` (1.4 GB), `ReferenceLibrary/`, `Reference/`, `Blender/`, `Scripts/Checkpoints/` (103 checkpoints, 797 MB; about 85 still writable). Not to be changed during installation (INF-01, INF-02, INF-05) |
+| `master` | **controlled integration / current-project branch.** One commit, `22cbe21` "Baseline M2 FM4" (the user, 2026-11-11). It holds the current place, so it mixes historically accepted, recommended and unaccepted work. Its content is not a status. Long-term policy: P-003 |
+| Agent branches | `pc/2026-11-11-agent-control-layer` (control-layer review branch; see above) |
+| Tracked size | ≈ 1.3 GB, mostly PNG; Git LFS installed but unused; no `.gitattributes`. Not to be changed during the control-layer work (INF-03, INF-04) |
+| Line endings | PC `core.autocrlf=true`. 47 files CRLF + 2 mixed in the working tree. All 157 `Scripts/src` files are LF. Integrity checks compare Git objects, not file bytes (`AGENTS.md` §3) |
+| Outside Git (PC only) | in the PC project folder next to `Roblox/`: `Documentation/`, `Fidelity Audit 2026-11-09/` (44 MB), `Fidelity Audit 2026-11-10/` (3.4 GB), `Lighting Correction 2026-11-09/` (961 MB), `ReferenceAnalysis/` (1.4 GB), `ReferenceLibrary/`, `Reference/`, `Blender/`; plus `Scripts/Checkpoints/` (103 checkpoints, 797 MB; about 85 still writable). Not to be changed during the control-layer work (INF-01, INF-02, INF-05) |
 | PC | Windows 11, Roblox Studio + MCP. Studio version UNKNOWN (auto-updates) |
 | Mac | UNKNOWN: OS version, agent runtime, Studio / MCP, evidence and footage access (P-015, P-016) |
 
 ## Place contents
 
 **In the place**
-- Accepted B-02 … B-19.
+- Historically accepted B-02 … B-19.
 - FOR REVIEW V-01 … V-10.
 - I-01; B-20 + B-21; I-02 + R-01.
 - `Workspace` test folders and SpawnLocation.
@@ -28,13 +40,11 @@ Maintained by PC; Mac proposes changes by handoff. Statuses live in `BASELINES.m
 
 **Scripts:** 157; remotes 14. Not published; no uploaded assets.
 
-## Verification queue (Mac, read-only, standing authorization)
+## Verification queue
 
-| Queue | Item | Evidence available to Mac? |
-|---|---|---|
-| Q-01 | R-01 FM4-G: fidelity and regression claims, plus the post-hoc metric caveat | UNKNOWN: the evidence is under `Fidelity Audit 2026-11-10/m2_facade/` (PC) |
-| Q-02 | V-01 … V-10 | UNKNOWN |
-| Q-03 | I-01 held-out numbers | UNKNOWN |
+The QA items are in `BACKLOG.md` (Q-01 … Q-03), with owners and states there.
+- Q-01 is permanently labelled `EXPOSED — NOT BLIND`.
+- Mac's access to the PC-local evidence is UNKNOWN (P-010, P-011).
 
 ## Engine and tool facts (implementation facts; MEASURED unless marked)
 
@@ -67,10 +77,11 @@ Maintained by PC; Mac proposes changes by handoff. Statuses live in `BASELINES.m
 - PowerShell gotchas: the `R` alias, case-insensitive variables, a backtick-a in a string is BEL.
 - Old suites need `allowClientTeleports`.
 
-## Records that are evidence only (do not use as status)
+## Records that are evidence only (never status or authority)
 
 - `Documentation/README.md` status table (stops at 2026-11-09).
 - MANIFEST titles of B-15, B-16, B-19.
+- Acceptance-record checkpoints (`*_accepted`).
 - FM4 "ACCEPT" wording in:
   - the checkpoint MANIFEST;
   - `m2_facade/RESULTS.md` §29;
